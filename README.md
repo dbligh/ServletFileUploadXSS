@@ -18,3 +18,11 @@ To use this class, simply call the wrapper class for ServletFileUpload:
     }
   
 This is usually easier to do when just using Parameters, but to be sure about protecting your text inputs for mulitpart forms, this class can come in handy.
+
+# Important
+
+This extension class just provides an avenue for performing XSS protection. I haven't included the actual scripting which does this cleaning. I have made a recommendation to use something like this:
+
+https://www.javacodegeeks.com/2012/07/anti-cross-site-scripting-xss-filter.html
+
+I'll leave it up to you to decide how aggressively you want to implement XSS protection.
