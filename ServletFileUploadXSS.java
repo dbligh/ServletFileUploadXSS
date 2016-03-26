@@ -15,7 +15,7 @@ import org.apache.commons.fileupload.util.Streams;
 
 /**
  *
- * @author Main
+ * @author dbligh
  */
 public class ServletFileUploadXSS extends ServletFileUpload {
 
