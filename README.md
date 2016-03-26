@@ -8,6 +8,8 @@ When dealing with file upload forms, you would typically use code that would loo
       //do something
   }
   
+# Usage
+
 To use this class, simply call the wrapper class for ServletFileUpload:
 
   List<FileItem> items = new ServletFileUploadXSS(new DiskFileItemFactory()).parseRequest(request);
